@@ -1,0 +1,39 @@
+# Convex-Polygons-applying-computational-geometry
+Using the computational geometry programming technique, build a C++ program that implements the algorithm for determining the smallest convex polygon (convex hull) on a set of points by applying Graham's Scan algorithm.
+
+
+Using the computational geometry programming technique, build a C++ program that implements the algorithm for determining the smallest convex polygon (convex hull) on a set of points by applying Graham's Scan algorithm.
+
+Input Format
+
+The program must read a number , that describes the number of points in a set located on a Cartesian plane, followed by  points (one per line). Each line represent a point and it is described by three elements: an id, the x and y coordinate.
+
+Constraints
+
+, followed by  lines, where each element in each line correspond to an id (String), and .
+
+Output Format
+
+The output of the program will a list of points in counterclockwise order defining the convex polygon. The list must be formed only by the ids of the points. The order must be the one described in the stack of Graham's Scan algorithm, from botton to top.
+
+Sample Input 0
+
+3
+p0 57 53
+p1 15 78
+p2 30 73
+Sample Output 0
+
+p0 p2 p1
+Sample Input 1
+
+6
+p0 85 97
+p1 61 46
+p2 22 84
+p3 54 84
+p4 88 40
+p5 64 89
+Sample Output 1
+
+p4 p0 p2 p1
